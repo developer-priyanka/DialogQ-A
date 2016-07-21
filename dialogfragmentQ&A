@@ -1,0 +1,13 @@
+a.What is dialog?
+Ans. A dialog is a small window on the UI of application that prompts to the 
+user to make a decision or enter additional information.Dialogs does not fill 
+the screen and It is normally used for modal events that requires user to take 
+an action before they can further proceed.
+
+b.How to create custom dialog?
+Ans. To create custom dialog we need to create a class that extends the 
+DialogFragment class and create an AlertDialog object in onCreateDialog method.
+
+c.How to use existing dialogs
+Ans.To use the existing dialog we need to create the instance of the existing 
+dialog class in our activity and invoke the show method so the dialog can appear.
